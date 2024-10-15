@@ -158,9 +158,9 @@ const Create = () => {
           </TouchableOpacity>
         </View>
         <FormField
-          title="AI Prompt"
+          title="Description"
           value={form.prompt}
-          placeholder="The prompt you used to create this video..."
+          placeholder="Enter a description for this video..."
           handleChangeText={(e) =>
             setForm({ ...form, prompt: e })
           }
